@@ -1,0 +1,16 @@
+.projects-container {
+	.project-card {
+		border-radius: 2rem;
+		img {
+			border-radius: 1rem;
+		}
+
+		.project-name {
+			font-variant: small-caps;
+		}
+
+		.btn-container {
+			justify-content: space-between;
+		}
+	}
+}

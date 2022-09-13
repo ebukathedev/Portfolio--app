@@ -1,0 +1,107 @@
+// @font-face {
+// 	font-family: "Montserrat";
+// 	src: url("fonts/Montserrat-Regular.otf.ttf") format("ttf");
+// }
+
+// @font-face {
+// 	font-family: "Open Sans";
+// 	src: url("fonts/OpenSans-VariableFont_wdth\,wght.ttf") format("ttf");
+// }
+
+* {
+	list-style-type: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: $light-gray;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+}
+
+.accent-bg {
+	background-color: $accent;
+}
+
+.primary-bg {
+	background-color: $primary;
+}
+
+.light-primary-bg {
+	background-color: $light-primary;
+}
+
+.lighter-primary-bg {
+	background-color: $lighter-primary;
+}
+
+.white-bg {
+	background-color: $white;
+}
+
+.light-gray-bg {
+	background-color: $light-gray;
+}
+
+.dark-gray-bg {
+	background-color: $dark-gray;
+}
+
+.darker-gray-bg {
+	background-color: $darker-gray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif !important;
+}
+
+h1,
+.section-title {
+	font-weight: 700 !important;
+}
+
+// h2,
+// h3 {
+// 	font-weight: 400 !important;
+// }
+
+a {
+	text-decoration: none;
+}
+
+section.section-divider {
+	img {
+		margin-top: -0.5rem;
+	}
+}
+
+div.btn-container {
+	display: flex;
+	gap: 1.5rem;
+}
+
+a.icon-btn {
+	gap: 0.5rem;
+}
+
+span.underline {
+	position: relative;
+	&:after {
+		content: "";
+		height: 0.3rem;
+		border-radius: 1rem;
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -1rem;
+		background: linear-gradient(to right, $accent, $green);
+	}
+}

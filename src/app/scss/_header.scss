@@ -1,0 +1,32 @@
+header {
+	background-color: $primary;
+	padding-bottom: 5rem;
+	.container {
+		border-radius: 1rem;
+		background-color: $light-primary;
+		background-image: url("/src/images/bg-pattern.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		img {
+			width: 75%;
+		}
+
+		h1,
+		h3 {
+			color: $white;
+		}
+
+		.job-title {
+			color: $accent;
+			font-variant: small-caps;
+		}
+
+		.icon-btn {
+			border: none;
+			// background-color:$blue;
+
+		}
+	}
+}
