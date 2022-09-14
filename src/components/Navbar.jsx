@@ -1,14 +1,14 @@
 import { useState } from "react";
 import logo from "../images/logo.svg";
 import SocialLink from "./Socials/SocialLink";
+import $ from "jquery";
 
 const Navbar = ({ isMenuOpen }) => {
-	const [change, setChange] = useState("");
+	const [change, setChange] = useState(false);
 	const openMenu = () => {
-		isMenuOpen = !isMenuOpen;
-		console.log(isMenuOpen);
-		isMenuOpen ? setChange("change") : setChange("");
-		isMenuOpen ? console.log("open") : console.log("close");
+		setChange((change) => !change);
+		$(".links").slideToggle();
+		console.log($);
 	};
 
 	return (
@@ -20,7 +20,9 @@ const Navbar = ({ isMenuOpen }) => {
 						<img src={logo} alt="ebuka" />
 					</a>
 					<button
-						className={`hamburger_menu d-flex flex-column d-md-none ${change}`}
+						className={`hamburger_menu d-flex flex-column d-md-none ${
+							change ? "change" : ""
+						}`}
 						onClick={openMenu}
 					>
 						<span className="bar1"></span>

@@ -16,6 +16,11 @@ const App = () => {
 				bgColor="lighter-primary-bg"
 			/>
 			<ProjectsContainer />
+			<SectionDivider
+				img={heroSectionDivider}
+				alt="paint dripping down"
+				bgColor="lighter-primary-bg"
+			/>
 		</>
 	);
 };

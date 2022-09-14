@@ -1,16 +1,39 @@
 .projects-container {
 	.project-card {
 		border-radius: 2rem;
+		box-shadow: 0 0 10px -3px $green;
+
 		img {
 			border-radius: 1rem;
 		}
 
 		.project-name {
 			font-variant: small-caps;
+			font-weight: 600;
+		}
+
+		.skills-title {
+			font-weight: 600;
+			font-variant: small-caps;
+		}
+
+		.skills-container {
+			gap: 1rem;
+			li {
+				font-variant: small-caps;
+				background-color: $darker-gray;
+				padding: 0.1rem 0.5rem;
+				text-align: center;
+				border-radius: 0.3rem;
+			}
 		}
 
 		.btn-container {
 			justify-content: space-between;
+
+			.btn {
+				border-radius: 1.5rem;
+			}
 		}
 	}
 }

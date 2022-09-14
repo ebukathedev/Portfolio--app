@@ -12,7 +12,7 @@ const Projects = () => {
 					<span className="underline">Projects</span>
 				</h2>
 
-				<div className="projects-container row mt-5 gx-5 gy-5">
+				<div className="projects-container row mt-5 gx-5 gy-5 pb-3">
 					{projects.map(
 						(
 							{ img, name, description, skills, live, code },

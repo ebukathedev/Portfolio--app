@@ -4,32 +4,28 @@ import IconButton from "../IconButton";
 const ProjectCard = ({ img, name, description, skills, live, code }) => {
 	return (
 		<div className="col-md-6 ">
-			<div className="project-card light-primary-bg p-3">
+			<div className="project-card light-primary-bg p-3 text-center">
 				<img className="img-fluid" src={img} alt={name} />
-				<div className="px-3">
-					<h4 className="project-name my-3 text-center">
+				<div>
+					<h3 className="project-name my-3">
 						<span>{name}</span>
-					</h4>
-					<p>{description}</p>
-					<h6 className="text-center">
-						<span>Skills</span>
-					</h6>
-					<ul className="p-0 d-flex justify-content-center">
-						{skills.map((item) => (
-							<Skill item={item} />
+					</h3>
+					<p className="mb-4">{description}</p>
+					<h5 className="text-center">
+						<span className="skills-title">skills</span>
+					</h5>
+					<ul className="skills-container p-0  mb-4 d-flex justify-content-center">
+						{skills.map((item, index) => (
+							<Skill key={index} item={item} />
 						))}
 					</ul>
 					<div className="btn-container">
 						<IconButton
 							href={live}
 							name="Live"
-							icon="bi bi-file-earmark-fill"
+							icon="bi bi-broadcast"
 						/>
-						<IconButton
-							href={code}
-							name="Code"
-							icon="bi bi-file-earmark-fill"
-						/>
+						<IconButton href={code} name="Code" icon="bi bi-code" />
 					</div>
 				</div>
 			</div>

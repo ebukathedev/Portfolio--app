@@ -17,9 +17,9 @@ const Header = () => {
 						<div className="col-lg-6 mt-5 mt-md-0">
 							<h5>Hey there,</h5>
 							<h1 className="display-2 name">I'm Ebuka</h1>
-							<span className="h3 job-title">
+							<h3 className="h3 job-title">
 								front-end web developer
-							</span>
+							</h3>
 							<p className="my-3">
 								Lorem ipsum dolor sit amet, consectetur
 								adipisicing elit. Obcaecati nostrum modi fugiat

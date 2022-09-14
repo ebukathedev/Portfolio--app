@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-Regular.otf.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-VariableFont_wdth,wght.ttf") format("ttf");
+}
 * {
   list-style-type: none;
 }
@@ -182,15 +190,34 @@ header .container .icon-btn {
 
 .projects-container .project-card {
   border-radius: 2rem;
+  box-shadow: 0 0 10px -3px #7eff66;
 }
 .projects-container .project-card img {
   border-radius: 1rem;
 }
 .projects-container .project-card .project-name {
   font-variant: small-caps;
+  font-weight: 600;
+}
+.projects-container .project-card .skills-title {
+  font-weight: 600;
+  font-variant: small-caps;
+}
+.projects-container .project-card .skills-container {
+  gap: 1rem;
+}
+.projects-container .project-card .skills-container li {
+  font-variant: small-caps;
+  background-color: #707079;
+  padding: 0.1rem 0.5rem;
+  text-align: center;
+  border-radius: 0.3rem;
 }
 .projects-container .project-card .btn-container {
   justify-content: space-between;
+}
+.projects-container .project-card .btn-container .btn {
+  border-radius: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {

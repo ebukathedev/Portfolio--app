@@ -12,7 +12,7 @@ const projects = [
 	},
 	{
 		img: scientificCalculatorImg,
-		name: "scientific calculator",
+		name: "ip address location tracker",
 		description:
 			"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus dolores iusto ipsum praesentium tempore veniam cum repellendus eaque quas nam?",
 		skills: ["html", "css", "javascript"],
