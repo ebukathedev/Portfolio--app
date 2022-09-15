@@ -186,6 +186,8 @@ header .container .job-title {
 }
 header .container .icon-btn {
   border: none;
+  background-color: #00ff71;
+  color: #11111f;
 }
 
 .projects-container .project-card {
