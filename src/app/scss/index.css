@@ -25,15 +25,15 @@ body {
 }
 
 .primary-bg {
-  background-color: #11111f;
+  background-color: #191a19;
 }
 
 .light-primary-bg {
-  background-color: #161629;
+  background-color: #212221;
 }
 
 .lighter-primary-bg {
-  background-color: #1c1c33;
+  background-color: #282a28;
 }
 
 .white-bg {
@@ -98,7 +98,7 @@ span.underline:after {
 }
 
 nav {
-  background-color: #11111f;
+  background-color: #191a19;
   border-bottom: 1px solid #707079;
 }
 nav .hamburger_menu {
@@ -162,12 +162,12 @@ nav .links li:hover a {
 }
 
 header {
-  background-color: #11111f;
+  background-color: #191a19;
   padding-bottom: 5rem;
 }
 header .container {
   border-radius: 1rem;
-  background-color: #161629;
+  background-color: #212221;
   background-image: url("/src/images/bg-pattern.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -187,7 +187,7 @@ header .container .job-title {
 header .container .icon-btn {
   border: none;
   background-color: #00ff71;
-  color: #11111f;
+  color: #191a19;
 }
 
 .projects-container .project-card {
