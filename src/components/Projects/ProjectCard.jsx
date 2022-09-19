@@ -20,12 +20,8 @@ const ProjectCard = ({ img, name, description, skills, live, code }) => {
 						))}
 					</ul>
 					<div className="btn-container">
-						<IconButton
-							href={live}
-							name="Live"
-							icon="bi bi-broadcast"
-						/>
-						<IconButton href={code} name="Code" icon="bi bi-code" />
+						<IconButton href={live} name="Live" />
+						<IconButton href={code} name="Code" />
 					</div>
 				</div>
 			</div>

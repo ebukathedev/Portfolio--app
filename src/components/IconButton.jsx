@@ -1,8 +1,7 @@
-const IconButton = ({ href, name, icon }) => {
+const IconButton = ({ href, name }) => {
 	return (
-		<a href={href} className=" icon-btn btn btn-primary d-flex align-items-center">
+		<a href={href} className=" icon-btn btn btn-primary">
 			{name}
-			<i className={icon}></i>
 		</a>
 	);
 };

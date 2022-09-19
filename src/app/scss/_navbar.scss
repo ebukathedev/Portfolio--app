@@ -10,7 +10,7 @@ nav {
 	.bar1,
 	.bar2,
 	.bar3 {
-		height: 3px;
+		height: 2px;
 		background-color: $accent;
 		transition: 0.3s;
 		border-radius: 1rem;
@@ -27,7 +27,7 @@ nav {
 
 	.change .bar1 {
 		-webkit-transform: rotate(-45deg) translate(-9px, 6px);
-		transform: rotate(-45deg) translate(-4px, 3px);
+		transform: rotate(-45deg) translate(-3px, 2px);
 	}
 
 	.change .bar2 {
