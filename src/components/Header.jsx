@@ -5,7 +5,7 @@ import SocialsContainer from "./Socials/SocialsContainer";
 const Header = () => {
 	return (
 		<header className="header px-3 py-5">
-			<div className="container px-3 py-5 p-md-5 mb-5">
+			<div className="container light-primary-bg px-3 py-5 p-md-5 mb-5">
 				<div className="intro-wrapper">
 					<div className="row flex-md-row-reverse">
 						<div className="col-md-6 d-flex align-items-end mb-5 mb-md-0 justify-content-center">
@@ -26,7 +26,7 @@ const Header = () => {
 							<h3 className="h2 m-0 job-title">
 								front-end web developer
 							</h3>
-							<p className="mt-4 mb-5 lead">
+							<p className="mt-4 mb-5">
 								Lorem ipsum dolor sit amet consectetur
 								adipisicing elit. Qui consequatur quaerat illo
 								facere eaque, rerum odio molestiae quae velit

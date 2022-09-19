@@ -36,6 +36,10 @@ body {
   background-color: #11111d;
 }
 
+.very-light-primary-bg {
+  background-color: #161626;
+}
+
 .white-bg {
   background-color: #ffffff;
 }
@@ -99,11 +103,11 @@ span.underline:after {
   right: 0;
   bottom: -1rem;
   background: linear-gradient(45deg, #39ff14, #aefe14);
+  box-shadow: 0 0 0.3rem 0 #39ff14;
 }
 
 nav {
   background-color: #0b0b13;
-  border-bottom: 1px solid #707079;
 }
 nav .hamburger_menu {
   gap: 5px;
@@ -171,7 +175,6 @@ header {
 }
 header .container {
   border-radius: 1rem;
-  background-color: #0f0f19;
 }
 header .container .hero-img-wrapper {
   position: relative;
@@ -227,7 +230,7 @@ header .container .icon-btn:last-child:hover, header .container .icon-btn:last-c
 
 .projects-container .project-card {
   border-radius: 2rem;
-  box-shadow: 0 0 10px -3px red;
+  box-shadow: 0 0 1rem #0b0b13, 2px 2px 8px -2px rgba(11, 11, 19, 0.4), -2px -2px 8px -2px rgba(11, 11, 19, 0.4);
 }
 .projects-container .project-card img {
   border-radius: 1rem;
@@ -237,11 +240,13 @@ header .container .icon-btn:last-child:hover, header .container .icon-btn:last-c
   font-weight: 600;
 }
 .projects-container .project-card .skills-title {
+  color: #e7e7e9;
   font-weight: 600;
   font-variant: small-caps;
 }
 .projects-container .project-card .skills-container {
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 .projects-container .project-card .skills-container li {
   font-variant: small-caps;
@@ -254,7 +259,34 @@ header .container .icon-btn:last-child:hover, header .container .icon-btn:last-c
   justify-content: space-between;
 }
 .projects-container .project-card .btn-container .btn {
-  border-radius: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+  color: #0b0b13;
+  background: linear-gradient(45deg, #39ff14, #aefe14);
+  box-shadow: inset 0 0 0.5rem 0 #39ff14, 0 0 0.5rem #39ff14;
+}
+.projects-container .project-card .btn-container .btn:hover, .projects-container .project-card .btn-container .btn:focus {
+  background: linear-gradient(45deg, #23e000, #92de01);
+}
+
+.skill-cards-container {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skill-cards-container .skill-card {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem #0b0b13, 2px 2px 8px -2px rgba(11, 11, 19, 0.4), -2px -2px 8px -2px rgba(11, 11, 19, 0.4);
+}
+.skill-cards-container .skill-card i {
+  color: #e7e7e9;
+}
+.skill-cards-container .skill-card .skill-card-title {
+  font-variant: small-caps;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.about-section .container {
+  border-radius: 1rem;
 }
 
 @media screen and (min-width: 768px) {

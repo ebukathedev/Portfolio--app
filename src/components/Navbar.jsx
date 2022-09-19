@@ -12,7 +12,7 @@ const Navbar = ({ isMenuOpen }) => {
 	};
 
 	return (
-		<nav className="navbar navbar-expand-md primary-bg p-2">
+		<nav className="navbar navbar-expand-md primary-bg p-2 py-4">
 			<div className="container d-block d-md-flex">
 				{/* nav header */}
 				<div className="nav-header d-flex justify-content-between align-items-center">

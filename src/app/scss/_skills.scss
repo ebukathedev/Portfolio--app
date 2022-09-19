@@ -1,0 +1,17 @@
+.skill-cards-container {
+	flex-wrap: wrap;
+	gap: 1rem;
+	.skill-card {
+		border-radius: 0.5rem;
+		box-shadow: $card-shadow;
+
+		i {
+			color: $light-gray;
+		}
+
+		.skill-card-title {
+			font-variant: small-caps;
+			color: $transparent-white;
+		}
+	}
+}

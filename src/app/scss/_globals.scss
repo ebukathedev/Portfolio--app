@@ -38,6 +38,10 @@ body {
 	background-color: $lighter-primary;
 }
 
+.very-light-primary-bg {
+	background-color: $very-light-primary;
+}
+
 .white-bg {
 	background-color: $white;
 }
@@ -102,5 +106,6 @@ span.underline {
 		right: 0;
 		bottom: -1rem;
 		background: $green-gradient;
+		box-shadow: 0 0 0.3rem 0 $accent;
 	}
 }
