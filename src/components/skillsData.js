@@ -9,7 +9,7 @@ const skillsData = [
 	},
 	{
 		icon: "devicon-sass-original",
-		title: "scss",
+		title: "sass",
 	},
 	{
 		icon: "devicon-bootstrap-plain",

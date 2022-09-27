@@ -6,10 +6,10 @@ const About = () => {
 			<div className="container my-5 px-3 py-5 p-md-5 light-primary-bg">
 				<div className="row flex-md-row-reverse">
 					<div className="col">
-						<h2 className="section-title text-center display-6">
+						<h2 className="section-title text-center display-6 mb-5">
 							<span className="underline">About Me</span>
 						</h2>
-						<div className="about-description mt-5">
+						<div className="about-description">
 							<p>
 								Lorem ipsum dolor sit amet consectetur
 								adipisicing elit. Neque iusto quas,

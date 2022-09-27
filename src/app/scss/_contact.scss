@@ -1,0 +1,27 @@
+.contact-section {
+	form {
+		display: flex;
+		flex-direction: column;
+		gap: 1.5rem;
+		border-radius: 2rem;
+		box-shadow: $card-shadow;
+
+		.input-area {
+			display: flex;
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+
+		button {
+			align-self: end;
+			background-color: $accent;
+		}
+
+		.form-control {
+			background-color: $very-light-primary;
+			border: none;
+			resize: none;
+			border-radius: 0.5rem;
+		}
+	}
+}

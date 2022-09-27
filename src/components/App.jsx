@@ -6,6 +6,7 @@ import skillsSectionDivider from "../images/paint-drip-bottom.svg";
 import ProjectsContainer from "./Projects section/ProjectsContainer";
 import SkillsContainer from "./Skills section/SkillsContainer";
 import About from "./About";
+import Contact from "./Contact";
 let menuOpen = false;
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
 				bgColor="lighter-primary-bg"
 			/>
 			<About />
+			<Contact />
 		</>
 	);
 };

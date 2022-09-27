@@ -175,6 +175,7 @@ header {
 }
 header .container {
   border-radius: 1rem;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 }
 header .container .hero-img-wrapper {
   position: relative;
@@ -261,12 +262,11 @@ header .container .icon-btn:last-child:hover, header .container .icon-btn:last-c
 .projects-container .project-card .btn-container .btn {
   border: none;
   border-radius: 1rem;
-  color: #0b0b13;
-  background: linear-gradient(45deg, #39ff14, #aefe14);
-  box-shadow: inset 0 0 0.5rem 0 #39ff14, 0 0 0.5rem #39ff14;
+  color: #ffffff;
+  background: #1bad00;
 }
 .projects-container .project-card .btn-container .btn:hover, .projects-container .project-card .btn-container .btn:focus {
-  background: linear-gradient(45deg, #23e000, #92de01);
+  background: #179400;
 }
 
 .skill-cards-container {
@@ -287,6 +287,30 @@ header .container .icon-btn:last-child:hover, header .container .icon-btn:last-c
 
 .about-section .container {
   border-radius: 1rem;
+  text-align: center;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem #0b0b13, 2px 2px 8px -2px rgba(11, 11, 19, 0.4), -2px -2px 8px -2px rgba(11, 11, 19, 0.4);
+}
+.contact-section form .input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact-section form button {
+  align-self: end;
+  background-color: #39ff14;
+}
+.contact-section form .form-control {
+  background-color: #161626;
+  border: none;
+  resize: none;
+  border-radius: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
